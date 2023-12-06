@@ -6,9 +6,13 @@ updates:
     package-ecosystem: gomod
     schedule:
       interval: weekly
+    reviewers:
+      - "mendersoftware/backend-dependabot-reviewers"
   - commit-message:
       prefix: "Changelog:All"
     directory: /
     package-ecosystem: docker
     schedule:
       interval: weekly
+    reviewers:
+      - "mendersoftware/backend-dependabot-reviewers"
